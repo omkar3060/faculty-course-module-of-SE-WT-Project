@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+.navbar-container {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 4px;
+    width: 100%;
+    background: linear-gradient(135deg, rgb(252, 252, 253), rgb(255, 250, 236))
+      rgba(229, 49, 85, 0.92);
+    z-index: 999;
+    font-family: 'Poppins';
+  }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-logo {
+    max-width: 100px;
+    max-height: 150px;
+    margin-left: 10px;
+    display: flex;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar-links a {
+    color: black;
+    margin-right: 20px;
+    margin-top: 50px;
+    text-decoration: none;
+  }
+  
