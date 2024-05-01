@@ -1,0 +1,52 @@
+/* Navbar.css */
+
+.navbar-container {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 4px;
+    width: 100%;
+    background: linear-gradient(135deg, rgb(252, 252, 253), rgb(255, 250, 236))
+      rgba(229, 49, 85, 0.92);
+    z-index: 999;
+    font-family: 'Poppins';
+  }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-logo {
+    max-width: 100px;
+    max-height: 150px;
+    margin-left: 10px;
+    display: flex;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar-links a {
+    background-color: white;
+    color: rgb(229, 49, 85);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border: 2px solid rgb(241, 84, 116);
+    display: flex;
+    padding: 10px 15px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    /* box-shadow: 2px 2px 5px rgba(229, 49, 85); */
+  }
+
+.navbar-links a:hover{
+  background-color: rgb(241, 84, 116);
+  color: white;
+}
+  
+  
